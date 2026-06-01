@@ -279,3 +279,5 @@ Implemented validations:
 # Conclusion
 
 The project successfully demonstrates a production-style Snowflake Data Engineering solution capable of ingesting, validating, processing, monitoring, and analyzing food delivery platform data using modern cloud data architecture principles.
+#url
+https://app.snowflake.com/lbpvuxz/rw43062/#/streamlit-apps/FOOD_DELIVERY_DB.PUBLIC.FOOD_DELIVERY_SYSTEM
