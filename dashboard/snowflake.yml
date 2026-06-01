@@ -1,0 +1,18 @@
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    title: Food_delivery_system
+    query_warehouse: FD_WH
+    compute_pool: SYSTEM_COMPUTE_POOL_CPU
+    main_file: streamlit_app.py
+    artifacts:
+      - pyproject.toml
+      - streamlit_app.py
+      - .streamlit/config.toml
+    identifier:
+      database: FOOD_DELIVERY_DB
+      schema: PUBLIC
+      name: FOOD_DELIVERY_SYSTEM
+    run_mode: SpcsOnly
+    execute_as: OWNER
